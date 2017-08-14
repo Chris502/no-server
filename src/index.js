@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch,Link, Route} from 'react-router-dom'
-import './index.css';
 import App from './App';
 import Movie from './Movie';
 import Main from './components/Main'
