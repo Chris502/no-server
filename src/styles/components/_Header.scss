@@ -1,0 +1,68 @@
+
+ .icon{
+   position: absolute;
+   left: 1vw;
+   top: -.3vh;
+   
+ }
+.header-top{
+  width: 100%;
+  background: rgba(76,78,77, 1);
+  z-index: 9;
+  
+  //background-image: url("./ZenBG-1.png"), url("./ZenBG-2.png");
+  //background-repeat: repeat-x, repeat;
+  position: fixed;
+  display: flex;
+  top: 0;
+  justify-content:space-around;
+  a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    flex-wrap: nowrap;
+    height: 6vh;
+  
+}
+  a:hover, a:active {
+    background-color: #232317;
+    text-decoration: underline;
+
+
+}
+}
+.button-box{
+  padding-left: 50vw;
+  height: 10vh;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  visibility:hidden
+}
+.buttons{
+  
+  
+  cursor:pointer;
+  overflow: hidden;
+  font-family: 'Bungee', cursive;
+  font-size: 2em;
+}
+
+
+.top-bar{
+  width: 20vw;
+  left: 0;
+  
+}
+
+@media(min-width: 700px){
+  .button-box{
+    visibility: visible;
+    width: 50%;
+    opacity: 1;
+  }
+}
+

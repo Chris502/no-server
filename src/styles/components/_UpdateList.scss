@@ -1,0 +1,14 @@
+.tweet-content{
+  min-height: 90vh;
+  display:block;
+  overflow:auto;
+  width: 100%;
+  background: url('./corrugation.png');
+  text-align: center;
+}
+.tweetbox{
+  display: relative;
+  padding-top: 15vh;
+  width: 60vw;
+  margin: auto;
+}

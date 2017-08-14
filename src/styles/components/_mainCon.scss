@@ -1,0 +1,166 @@
+
+
+
+.main-content{
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  top: 8vh;
+  background: url('./corrugation.png');
+  text-align: center;
+  overflow: hidden;
+  h1{
+    color: #4d5a49;
+    font-family:  'Bree Serif', serif;
+    font-size: 1.5em;
+    text-shadow: -0.5px 0 goldenrod,0 1px #5c5364,1px 0 #5c5364,0 -0.5px goldenrod;
+  
+  }
+  }
+  
+  
+  
+.button-row{
+  flex-wrap: wrap;
+  width: 20vw;
+  height: 5vh;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 20px;
+  
+}
+.title-button{
+  width: 100%;
+  font-family: $landBut;
+  font-size: 1em;
+  overflow: auto
+
+}
+.actor-button{
+  width: 100%;
+  font-family: $landBut;
+  font-size: 1em;
+  overflow: auto
+}
+.director-button{
+  width: 100%;
+  font-family: $landBut;
+  font-size: 1em;
+  overflow: auto
+}
+.input-row{
+  flex-wrap: wrap;
+  width: 20%;
+  margin: auto;
+
+}
+
+.titlebox{
+  padding-left: 3px;
+  margin-top: 10px;
+  margin-right: 5px;
+  height: 20px;
+  width: 100%;
+}
+.yearbox{
+  padding-left: 3px;
+  margin-top: 10px;
+  margin-right: 5px;
+  height: 20px;
+  width: 100%;
+}
+.directorbox{
+  padding-left: 3px;
+  margin-top: 10px;
+  height: 20px;
+  width: 100%;
+}
+.starbox{
+  padding-left: 3px;
+  margin-top: 10px;
+  height: 20px;
+  width: 100%;
+}
+.poster{
+  width: 100%
+}
+.response-list{
+  border: 1px solid black;
+  list-style: none;
+  position: relative;
+    font-family: 'Bree Serif', serif;
+    overflow: auto;
+  @include ShadowBox();
+
+  
+}
+.response-box{
+  position: absolute;
+  height: 60vh;
+  overflow: auto;
+  width:85%;
+  margin: auto;
+  margin-bottom: 10vh;
+  justify-content: center;
+  padding-right: 40px;
+  top: 10vh;
+  left: 3vh;
+  h6{
+    color: #4d5a49;
+    font-family:  'Bree Serif', serif;
+    font-size: 2.5em;
+    text-shadow: -1px 0 #ffe2ac,0 1px #5c5364,1px 0 #5c5364,0 -1px #ffe2ac;
+  
+  }
+
+}
+
+
+@media (min-width: 700px){
+  .button-row{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 32vw;
+    
+  }
+  .title-button{
+    width: 100%;
+  }
+  .actor-button{
+    width: 100%;
+  }
+  .director-button{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .input-row{
+    position: absolute;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width:60vw;
+    top: 20vh;
+    right: 20%;
+  }
+
+  .directorbox{
+    border: 2px solid #4c4e4d;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #4d5a49
+  }
+  .titlebox{
+    border: 2px solid #4c4e4d;
+    color: #4d5a49
+    
+
+  }
+  .starbox{
+    border: 2px solid #4c4e4d;
+    padding-left: 5px;
+    color: #4d5a49
+    
+
+  }
+  
+}

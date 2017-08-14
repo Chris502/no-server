@@ -1,0 +1,55 @@
+wireframes
+
+https://www.codementor.io/design/tutorial/getting-started-with-wireframes
+http://www.dtelepathy.com/blog/design/learning-to-wireframe-10-best-practices
+
+
+design/ api's
+
+
+```
+
+Public APIs – 
+1)    Music – 
+  a.    Itunes - https://itunes.apple.com/ 
+  b.    Hook Theory - https://www.hooktheory.com/api/trends/docs
+2)    Maps – 
+  a.    Mapbox - https://www.mapbox.com/mapbox.js/api/v3.1.1/ 
+  b.    Google Maps - https://developers.google.com/maps/
+3)    Video Games – 
+  a.    Giant Bomb - https://www.giantbomb.com/api/
+  b.    Steam - https://steamcommunity.com/dev
+4)    Weather – 
+  a.    Open Weather - http://openweathermap.org/api
+5)    Movies – 
+  a.    Movie DB - https://www.themoviedb.org/documentation/api
+6)    Travel – 
+  a.    Expedia - http://developer.ean.com/docs/
+7)    Social Media – 
+  a.    Twitter - https://dev.twitter.com/rest/public
+  b.    Instagram - https://www.instagram.com/developer/
+  c.    Tumblr - https://www.tumblr.com/docs/en/api/v2
+8)    Entertainment – 
+  a.    Giphy - http://api.giphy.com/
+9)    News – 
+  a.    Propublica - https://www.propublica.org/datastore/apis
+  b.    NYT - https://developer.nytimes.com/
+
+
+Guide to how to not suck at a design for the non-designer : https://medium.com/@hemeon/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037
+
+Weather Apps : https://medium.muz.li/weather-app-inspiration-3378000015c6
+Beautiful UI : https://medium.muz.li/beautiful-ui-inspiration-by-dennis-sevryukov-d61dcb87e10
+User Profiles : https://medium.muz.li/50-user-profile-page-design-inspiration-5c45aeeda400
+Dashboards : https://medium.muz.li/dashboard-analytics-page-inspiration-65a5d8f20683
+Chat Interfaces : https://medium.muz.li/amazing-chat-interface-inspiration-9ce35222b93a
+Clean design : http://www.kristagray.com/meetkrista/
+http://www.devonstank.com/
+Simple Resume feel : http://www.rachaelgking.com/
+http://www.pascalvangemert.nl/#/profile
+Neat animations : http://www.k1ngdom.net/?page=portfolio
+That's not google : http://www.garylemasson.com/
+Professional 1 page + blog + admin section : http://julia.na/ (3 routes)
+Simple but fun scroll : http://www.madebydaryl.co.uk/
+Over-kill, but awesome: http://strml.net/
+```

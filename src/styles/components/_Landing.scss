@@ -1,0 +1,117 @@
+
+.lander{
+    height: 100vh;
+    width: 100vw;
+       background-image: url('./lazyday.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-flex;
+}
+
+.landing-box{
+    position: absolute;
+    top: 32vh;
+    display: inline-block;
+    left: 7vw;
+
+}
+.land-but{
+    padding-left: 35vw;
+}
+.header-box{
+    width: 70vw;
+    padding-left: 27vw;
+    font-family: $landHead;
+    letter-spacing:1.5px;
+    font-size: 1.75em;
+    color: whitesmoke;
+    text-shadow: -1px 0 #000000,0 3px #000000,3px 0 #000000,0 -1px #000000
+}
+.getStart{
+    align-self:center;
+    font-family: $landBut;
+    cursor: pointer;
+      background:transparent;
+      transition:all .5s ease;
+      color: black;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size:2rem;
+      outline:none;
+      border: none;
+      text-shadow: -1px 0 whitesmoke,0 3px whitesmoke,3px 0 whitesmoke,0 -1px whitesmoke
+    
+   
+}
+.getStart{
+	
+
+	&:before {
+		width:0;
+		height:3px;
+		content:" ";
+        background-color: whitesmoke;
+		position:absolute;
+		top:70%;
+		left:40%;
+
+		@include transition(all 0.7s ease);
+	}
+
+	&:after {
+		@extend .getStart:before;
+        top:90%;
+        
+	}
+
+	&:hover {
+		letter-spacing:9px;
+        color: black;
+        right: 20vw;
+
+		&:before {
+			width:29%;
+            left:29%;
+             border: 2px solid black;
+            
+		}
+		&:after {
+			width:29%;
+            left:29%;
+             border: 2px solid black;
+        
+            
+		}
+	}
+}
+
+
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 

@@ -1,0 +1,27 @@
+@mixin ShadowBox(){
+    -webkit-box-shadow: 7px 10px 0px 2px rgba(30,36,29,1);
+    -moz-box-shadow: 7px 10px 0px 2px rgba(30,36,29,1);
+    box-shadow: 7px 10px 0px 2px rgba(30,36,29,1);
+}
+
+ @mixin animation($in) {
+	animation:$in;
+	-webkit-animation:$in;
+	-moz-animation:$in;
+	-o-animation:$in;
+	-ms-animation:$in;
+}
+@mixin transform($in) {
+	transform:$in;
+	-webkit-transform:$in;
+	-moz-transform:$in;
+	-o-transform:$in;
+	-ms-transform:$in;
+}
+@mixin transition($in) {
+	transition:$in;
+	-webkit-transition:$in;
+	-moz-transition:$in;
+	-o-transition:$in;
+	-ms-transition:$in;
+}

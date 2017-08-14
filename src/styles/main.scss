@@ -1,0 +1,21 @@
+
+//++++++Globals Vals++++++++//
+
+@import './global';
+///++++++++ Variables ++++++/////
+@import './variables';
+
+//++++++++++MixIns++++++++//
+
+@import './mixIns';
+
+//++++++++++ Components ++++++++//
+@import './components/App';
+
+@import './components/mainCon';
+@import './components/Header';
+@import './components/Footer';
+@import './components/movie';
+@import './components/UpdateList';
+@import './components/Contact';
+@import './components/Landing';

@@ -1,0 +1,41 @@
+
+.movie-content{
+ background: url('./corrugation.png');
+ min-height:300vh;
+
+ 
+}
+.allMen{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    font-family: $throne;
+    font-size: 20px;
+        text-shadow: -1px 0 #ffe2ac,0 1px #5c5364,1px 0 #5c5364,0 -1px #ffe2ac;
+
+    }
+
+
+.nameInput{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+ 
+}
+.deathBox{
+    position: absolute;
+    top:32%;
+    left: 30%;
+    width: 40%;
+    padding-left: 50px;
+    h3{
+    color: black;
+    font-family: $throne;
+    font-size: 2em;
+    text-shadow: -1px 0 #ffe2ac,0 1px #5c5364,1px 0 #5c5364,0 -1px #ffe2ac;
+  
+  }
+}
+.deaths{
+    justify-content: center;
+}

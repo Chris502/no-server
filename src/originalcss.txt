@@ -1,0 +1,149 @@
+.app{
+  position: relative
+}
+.header-top{
+  height: 14.8vh;
+  width: 100%;
+  background: rgba(27, 59, 119, 0.8);
+  top: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+.pHeader{
+  font-size: 30px;
+  text-align: center;
+}
+.main-content{
+  position: relative;
+  height: 76.8vh;
+  width: 100%;
+  top: 11vh;
+  background: darkgray;
+  text-align: center;
+  }
+.button-row{
+  display: inline-flex;
+  width: 30vw;
+  height: 5vh;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.titlebox{
+  margin-right: 5px;
+  height: 20px;
+}
+.yearbox{
+  margin-right: 5px;
+  height: 20px;
+}
+.directorbox{
+  margin-left: 5px;
+  height: 20px;
+}
+.starbox{
+  height: 20px;
+}
+
+.movie-content{
+  background: darkgray;
+  height:75.5vh;
+  margin-top: 14.9vh;
+}
+
+.response-box{
+  height: 40vh;
+  width:65%;
+  margin: auto;
+  overflow: scroll;
+  justify-content: center;
+  padding-right: 40px;
+}
+.response-box2{
+  height: 40vh;
+  overflow: scroll
+}
+.poster{
+  width: 100%
+}
+.response-list{
+  list-style: none;
+}
+
+.footer-bot{
+  height:  10vh;
+  width: 100%;
+  background: rgba(27, 59, 119, 0.8);
+  bottom: 0vh;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end
+}
+.button-box{
+  height: 14vh;
+  width: 100%;
+  display: inline-flex
+}
+.buttons{
+  height: 14.8vh;
+  width: 24.8vw;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  font-family: 'Bungee', cursive;
+  font-size: 3vw;
+  animation-name: bounce;
+
+}
+.githubPic{
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}
+.linkedInPic{
+position: absolute;
+bottom: 10px;
+right: 50px;
+}
+
+.top-bar{
+  width: 25vw;
+  
+}
+.tweet-content{
+  background: darkgray;
+  height: 75vh;
+  margin-top: 15vh;
+}
+.tweetbox{
+  width: 50%;
+  margin: auto;
+  margin-top: 15vh;
+}
+.link-box{
+  display: flex;
+  justify-content: space-around;
+}
+.contact-text{
+  display: inline-flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+}
+
+
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: lightblue;
+}
