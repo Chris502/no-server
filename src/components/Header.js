@@ -16,7 +16,7 @@ class Header extends Component {
                 <div className='icon-box'><img src={Bomb}  className='icon'></img></div>
                 <div className="button-box">
                     <div className="top-bar"> <Link to='/App' className="top-link buttons but1">Home</Link></div>
-                    <div className="top-bar"> <Link to='../Movie' className="top-link buttons but2">Movies</Link></div>
+                    <div className="top-bar"> <Link to='../Movie' className="top-link buttons but2">Thrones</Link></div>
                     <div className="top-bar"><Link to='../UpdateList' className="top-link buttons but3">Social</Link></div>
                     <div className="top-bar"> <Link to='../Contact' className="top-link buttons but4">Contact</Link></div>
                 </div>
